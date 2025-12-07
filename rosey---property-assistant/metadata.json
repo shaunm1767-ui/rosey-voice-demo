@@ -1,0 +1,7 @@
+{
+  "name": "Rosey - Property Assistant",
+  "description": "A conversational voice AI agent for South African property services, handling inquiries for buying, selling, and valuations.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

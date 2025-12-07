@@ -1,0 +1,9 @@
+export default function handler(req: any, res: any) {
+  const key = process.env.API_KEY;
+
+  if (!key) {
+    return res.status(500).json({ message: "Missing API key" });
+  }
+
+  res.status(200).json({ message: "Rosey AI voice demo is live ✅" });
+}
